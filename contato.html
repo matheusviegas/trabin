@@ -1,0 +1,267 @@
+          
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Trabin&nbsp;Software&nbsp;&amp;&nbsp;Consulting</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description"        content="Desenvolvimento de sistemas ERP." />
+	<meta name="Keywords"       content="sistemas, erp, desenvolvimento, sites, supermercado, loja, web, consultoria" />
+	<meta name="Language"       content="Portuguese" />
+	<meta name="Author"         content="Trabin" />
+	<meta name="robots"         content="index,follow" />
+	<meta name="revisit-after"  content="1" />
+	<meta name="distribution"   content="global" />
+	<meta name="rating"         content="general" />
+	<meta http-equiv="pragma"   content="no-cache" />
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<link rel="icon" href="img/favicon.ico" />
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="css/geral.css" />
+
+    <script src="js/prototype.js"      type="text/javascript" language="javascript"></script>
+    <script src="js/geral.js" type="text/javascript" language="javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/contato.css" /><script src="js/contato.js" type="text/javascript"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $(".toggleMenu").click(function(){
+        $("#menu_topo").toggle(100);
+    });
+});
+
+</script>
+
+
+    </head>
+<body onload="Geral.carregar();">
+
+<div id="centraliza_tudo">
+	<div class="container">
+		<div class="norte">			
+
+
+		<div class="topoMobile">
+
+				
+	<div class="meio">
+		<h1 class="logoMobile">Trabin</h1>
+	</div>
+				
+	<div class="dir">
+
+	<ul class="menuTablet">
+						<li><a href="index.html">In&iacute;cio</a></li>
+						<li><a href="empresa.html">Sobre a Trabin</a></li>
+						<li><a href="tecnologia.html">Tecnologia</a></li>
+						<li><a href="portifolio.html">Portif&oacute;lio</a></li>
+						<li class="selecionado"><a href="contato.html">Fale Conosco</a></li>
+						<li><a href="login.html">Login</a></li>
+					</ul>
+					
+		<a class="toggleMenu" href="#"><img class="icone_menu" src="images/menu.png"></a>
+	</div>
+</div>			
+		
+			<div id="menu_topo">
+				<ul id="menu">
+					<li id="botao_inicio">    <a href="index.html">    In&iacute;cio    </a></li>
+					<li id="botao_empresa">   <a href="empresa.html">   Sobre a Trabin   </a></li>
+					<li id="botao_tecnologia"><a href="tecnologia.html">Tecnologia       </a></li>
+					<li id="botao_portifolio"><a href="portifolio.html">Portif&oacute;lio</a></li>
+					<li id="botao_contato">   <a href="contato.html">   Fale Conosco     </a></li>
+					<li id="botao_login">     <a href="login.html">     Login            </a></li>
+				</ul>
+			</div>
+			<div id="logo_seprorgs" >
+				<a href="http://www.seprorgs.com.br/" target="_blank" title="SEPRORGS - Sindicato das Empresas de Inform&aacute;tica do Rio Grande do Sul">
+					<img src="img/SeloSeprorgs_76x76.png" />
+				</a>
+			</div>
+			
+			<div id="logo_pgqp">
+				<a href="http://www.portalqualidade.com/pgqp" target="_blank" title="PGQP - Programa Ga&uacute;cho da Qualidade e Produtividade">
+					<img src="img/SeloPGQP_63x76.png" />	
+				</a>						
+			</div>						
+			
+			<div id="logo_acpel">
+				<a href="http://www.ascompel.com.br/" target="_blank" title="ACPel - Associa&ccedil;&atilde;o Comercial de Pelotas">													
+					<img src="img/SeloACPel_75x76.png" />				
+				</a>					
+			</div>			
+	    </div>
+		<div class="oeste"></div>
+		<div class="centro">
+		
+	
+<div id="bloco_centro">
+
+
+
+	<img src="images/email.jpg">
+
+	
+
+	
+	
+
+	<div id="descricao">
+
+		<div id="lesq">
+
+			<h2>Formul&aacute;rio de Contato</h2>
+
+			<span id="titulo">Campos marcados com <img src="images/linha_campo_obrigatorio.gif" /> são obrigatórios.</span>
+
+			<form id="formulario_contato" action="" onsubmit="return Interna.confereCamposObrigatorios();" method="post">
+
+				<div class="texto"><span style="font-weight: bold;">nome</span>&nbsp;</div>
+
+                                <div class="campo"><input class="input obrigatorio" id="nome" name="nome" type="text"  value="" /></div>
+
+
+				<div class="texto">empresa&nbsp;</div>
+
+				<div class="campo"><input class="input" id="empresa" name="empresa" type="text" value=""/></div>
+
+				
+
+				<div class="texto">cargo&nbsp;</div>
+
+				<div class="campo"><input class="input" id="cargo" name="cargo" type="text" value=""/></div>
+
+				
+
+				<div class="texto">cidade&nbsp;</div>
+
+				<div class="campo"><input class="input" id="cidade" name="cidade" type="text" value=""/></div>
+
+				
+
+				<div class="texto">telefone&nbsp;</div>
+
+				<div class="campo">	
+
+					<input class="input" id="ramal" name="ramal" type="text" maxlength="3" style="width: 15%; margin-right: 0.572em;" value="" />
+
+					<input class="input" id="fone" name="fone" type="text" maxlength="15" style="width: 80.08%;" value="" />
+
+				</div>
+
+				
+
+				<div class="texto"><span style="font-weight: bold;">email</span>&nbsp;</div>
+
+				<div class="campo"><input class="input obrigatorio" id="email" name="email" type="text" value=""/></div>
+
+				
+
+				<div class="texto"><span style="font-weight: bold;">mensagem</span>&nbsp;</div>
+
+				<div class="campo"><textarea class="textarea obrigatorio" id="texto" name="texto"   ></textarea></div>
+
+
+				<div class="campo">
+					<input id="checkbox" name="checkbox" type="hidden" value="true" />
+				 </div>
+                
+
+
+				<div class="campo" align="left" style="padding-top: 8px;">
+
+					<input type="submit" class="botao" id="enviar" name="enviar" value=" Enviar Mensagem " />
+
+				</div>
+                                
+
+
+			</form>
+
+		</div>
+
+		<div id="ldir">
+
+			<fieldset class="filds">
+
+				<legend>Endereço</legend>
+
+				<br>
+
+				<strong>Trabin Com&eacute;rcio de Sistemas e Inform&aacute;tica LTDA.</strong><br><br>
+
+				Rua Tiradentes, 3021 - Sala 307 <br>
+
+				CEP 96010-160 - Pelotas - RS - Brasil
+
+				<br><br>
+
+				<a style="text-decoration: none;" href="#" target="_blank" title="Localiza&ccedil;&atilde;o da Trabin no Google Maps">Trabin Map - "Google Maps"</a>
+
+				<br><br>
+
+			</fieldset>
+
+			
+
+			<br><br>
+
+			<fieldset class="filds">
+
+				<legend>Atendimento</legend>
+
+				<br>
+
+				Segunda a Sexta: 8:00 as 12:00 - 14:00 as 18:00 - (GMT: -3:00h) <br><br> 
+
+				Dentro destes hor&aacute;rios voc&ecirc; ser&aacute; melhor atendido ligando 
+
+				para nosso escrit&oacute;rio.<br><br>
+
+				Fone: +55(53)3227.4157 - Fax: +55(53)3222.4301<br><br>
+
+				e-mail: <a class="link" href='mailto:trabin@trabin.com.br'>trabin@trabin.com.br</a><br><br>
+				
+				Suporte ao cliente: <a class="link" href="#">Suporte Trabin - VNC</a>
+
+				<br><br>
+
+			</fieldset>
+
+		</div>
+
+	</div>
+
+
+
+	
+
+</div>
+
+
+
+
+	    </div>
+		<div class="leste"></div>
+		<div class="sul">
+			<!-- <span id="endereco"> -->
+				Rua Tiradentes, 3021 - Sala 307 <br /> <span class="ocultaBarrinha">-</span> CEP 96010-160 
+
+- Pelotas / RS / Brasil 
+				<span class="ocultaBarrinha">-</span> <br />Fone: 53 3227 4157 - Fax: 53 3222 4301
+			<!-- </span> -->
+
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

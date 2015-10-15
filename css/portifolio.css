@@ -1,0 +1,478 @@
+/* Muda a cor do menu selecionado */
+.container .norte #menu_topo #menu #botao_portifolio {
+	background: #fff url('../images/fundo_menu_selecionado.jpg') repeat-x;
+}
+
+#centraliza_tudo > div > div.sul > br{
+	display: none;
+}
+
+.container .norte #menu_topo #menu #botao_portifolio a {
+	color: #225;
+}
+
+/* Bloco do centro */
+#bloco_centro {
+    width: 1005px;
+	min-height: 275px;
+    _height: 275px;
+    border: 0px solid #f00;
+}
+
+
+#bloco_centro #descricao {
+	width: 960px;
+	min-height: 55px;
+	_height: 55px;
+	text-align: justify;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 0px solid #444;
+	background-color: #f1f3f5;
+	float: left;
+}
+
+#bloco_centro #produtos {
+	width: 1005px;
+	min-height: 270px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	float: left;
+}
+
+#bloco_centro #produtos h1 {
+	margin-left: 20px;
+}
+
+#bloco_centro #produtos .produto {
+	width: 306px;
+	min-height: 250px;
+	_height: 250px;
+	text-align: center;
+	margin: 5px;
+	float: left;
+}
+
+#bloco_centro #produtos .produto img {
+	/*width: 300px;
+	height: 230px;*/
+	border: 4px double #ccc;
+	float: left;
+}
+
+#bloco_centro #produtos .produto .texto {
+	margin: 5px;
+	clear: left;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+
+	#centraliza_tudo > div > div.sul > br{
+		display: inherit;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+	#bloco_centro #solucoes{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao{
+		width: 87%;
+	}
+
+	.container .sul{
+		width: 92.8%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: inherit;
+	}
+
+	.ocultaBarrinha{
+		display: none;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	#bloco_centro #noticias{
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		display: inherit;
+		height: 46px;
+
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+	.meio {
+		width: 84%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 10%;
+		float: left;
+	}
+
+
+
+	#bloco_centro #produtos {
+    width: 100%;
+    min-height: 270px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    float: left;
+	}
+
+
+	#bloco_centro #produtos .produto {
+    width: 91%;
+    min-height: 250px;
+    _height: 250px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    margin-left: 1em;
+    position:relative; 
+top:0px; left:0px;
+	}
+
+
+	#bloco_centro #produtos h1 {
+    	margin-left: 20px;
+   		float: left;
+	}
+
+
+	#bloco_centro #produtos .produto .texto{
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.62);
+    padding: 2em;
+    width: 83%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+	}
+
+	.menuTablet{
+		display: none;
+	}
+
+}
+
+
+
+/* TABLET */
+@media only screen and (min-width: 601px) and (max-width: 900px){
+
+
+	.menuTablet{
+		padding: 16px;
+	}
+
+	.menuTablet > li{
+		display: inline;
+   		padding: 16px;
+   		text-decoration: none;
+    	border: 0;
+	}	
+
+	.menuTablet > li > a, li > a:hover, li > a:visited, li > a:active{
+		color: #ffffff;
+		font-size: 12px;
+	}
+
+
+	.icone_menu{
+		display: none;
+	}
+
+
+
+	#centraliza_tudo > div > div.sul > br{
+		display: none;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+	#bloco_centro #solucoes{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao{
+		width: 94%;
+	}
+
+	.container .sul{
+		width: 96.7%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: none;
+	}
+
+	.ocultaBarrinha{
+		display: inline;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	#bloco_centro #noticias{
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		display: inherit;
+		height: 46px;
+
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+	.meio {
+		width: 10%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 88%;
+		float: left;
+	}
+
+
+
+	#bloco_centro #produtos {
+    width: 100%;
+    min-height: 270px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    float: left;
+	}
+
+
+	#bloco_centro #produtos .produto {
+    width: 48%;
+    min-height: 250px;
+    _height: 250px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    margin-left: 1em;
+    position:relative; 
+	top:0px; left:0px;
+	}
+
+
+	#bloco_centro #produtos h1 {
+    	margin-left: 20px;
+   		float: left;
+   		width: 89%;
+	}
+
+
+	#bloco_centro #produtos .produto .texto{
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.62);
+    padding: 2em;
+    width: 78%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+	}
+
+}

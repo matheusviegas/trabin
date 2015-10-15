@@ -1,0 +1,440 @@
+.toggleMenu{
+	display: none;
+}
+
+.container .sul br{
+		display: none;
+	}
+
+
+/* Muda a cor do menu selecionado */
+.container .norte #menu_topo #menu #botao_login {
+	background: #fff url('../images/fundo_menu_selecionado.jpg') repeat-x;
+}
+
+.container .norte #menu_topo #menu #botao_login a {
+	color: #225;
+}
+
+/* Bloco do centro */
+#bloco_centro {
+    width: 1005px;
+	min-height: 275px;
+    _height: 275px;
+    border: 0px solid #f00;
+}
+
+
+#bloco_centro #formulario {
+	width: 960px;
+	min-height: 110px;
+	_height: 110px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	border: 0px solid #444;
+}
+
+#bloco_centro #formulario #fmeio {
+	width: 300px;
+	min-height: 100px;
+	_height: 100px;
+	margin-top: 15px;
+	border: 1px dotted #444;
+	margin: 10px auto;
+}
+
+#bloco_centro #formulario #fmeio #resposta {
+	height: 25px;
+	line-height: 25px;
+	color: #f00;
+	font-weight: bold;
+}
+
+#bloco_centro #formulario #fmeio .descricao {
+	width: 60px;
+	height: 22px;
+	line-height: 22px;
+	text-align: right;
+	border: 0px solid #444;
+	float: left;
+}
+
+#bloco_centro #formulario #fmeio .campo {
+	width: 230px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	padding-left: 3px;
+	border: 0px solid #444;
+	float: left;
+}
+
+#bloco_centro #formulario #fmeio .campo .input {
+	width: 220px;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+
+	.topoMobile{
+		display: inherit;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+
+	.container .sul{
+		width: 92.8%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: inherit;
+	}
+
+	.ocultaBarrinha{
+		display: none;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		height: 46px;
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+
+	.meio {
+		width: 84%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 10%;
+		float: left;
+	}
+
+
+
+	#bloco_centro #formulario {
+	width: 100%;
+	min-height: 110px;
+	_height: 110px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid #444;
+	}
+
+	#bloco_centro #formulario #fmeio{
+		width: 90%;
+		border: none;
+		min-height: 200px;
+	}
+
+	#bloco_centro #formulario #fmeio .campo .input{
+		width: 100%;
+	}
+
+
+	#bloco_centro #formulario #fmeio .descricao{
+		width: 100%;
+  	  	text-align: left;
+  	  	border: none;
+  	  	float: left;
+	}
+
+
+	#bloco_centro #formulario #fmeio .campo{
+		width: 100%;
+	}
+
+	.menuTablet{
+		display: none;
+	}
+
+
+
+}
+
+
+
+/* TABLET */
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+
+	.menuTablet{
+		padding: 16px;
+	}
+
+	.menuTablet > li{
+		display: inline;
+   		padding: 16px;
+   		text-decoration: none;
+    	border: 0;
+	}	
+
+	.menuTablet > li > a, li > a:hover, li > a:visited, li > a:active{
+		color: #ffffff;
+		font-size: 12px;
+	}
+
+
+	.icone_menu{
+		display: none;
+	}
+
+	.topoMobile{
+		display: inherit;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+
+	.container .sul{
+		width: 96.7%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: none;
+	}
+
+	.ocultaBarrinha{
+		display: inline;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		height: 46px;
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+
+	.meio {
+		width: 10%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 88%;
+		float: left;
+	}
+
+
+
+	#bloco_centro #formulario {
+	width: 100%;
+	min-height: 110px;
+	_height: 110px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid #444;
+	}
+
+	#bloco_centro #formulario #fmeio{
+		width: 90%;
+		border: none;
+		min-height: 200px;
+	}
+
+	#bloco_centro #formulario #fmeio .campo .input{
+		width: 100%;
+	}
+
+
+	#bloco_centro #formulario #fmeio .descricao{
+		width: 100%;
+  	  	text-align: left;
+  	  	border: none;
+  	  	float: left;
+	}
+
+
+	#bloco_centro #formulario #fmeio .campo{
+		width: 100%;
+	}
+
+}

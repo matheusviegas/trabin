@@ -1,0 +1,541 @@
+.toggleMenu{
+	display: none;
+}
+
+.container .sul br{
+		display: none;
+	}
+
+
+
+/* Muda a cor do menu selecionado */
+.container .norte #menu_topo #menu #botao_contato {
+	background: #fff url('../images/fundo_menu_selecionado.jpg') repeat-x;
+}
+
+.container .norte #menu_topo #menu #botao_contato a {
+	color: #225;
+}
+
+/* Bloco do centro */
+#bloco_centro {
+    width: 1005px;
+	min-height: 275px;
+    _height: 275px;
+    border: 0px solid #f00;
+}
+
+
+#bloco_centro #descricao {
+	width: 960px;
+	min-height: 255px;
+	_height: 255px;
+	text-align: justify;
+	padding: 10px;
+	margin: 10px;
+	border: 0px solid #444;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq {
+	width: 455px;
+	min-height: 250px;
+	_height: 250px;
+	text-align: justify;
+	border: 0px solid #444;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq h2 {
+	color: #333;
+}
+
+#bloco_centro #descricao #lesq #titulo {
+	width: 450px;
+	min-height: 22px;
+	line-height: 22px;
+	_height: 22px;
+	border: 0px solid #444;
+	text-align: center;
+	color: #777;
+	margin-bottom: 15px;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq .texto {
+	width: 85px;
+	min-height: 20px;
+	line-height: 20px;
+	_height: 20px;
+	border: 0px solid #444;
+	text-align: right;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq .campo {
+	width: 350px;
+	min-height: 22px;
+	_height: 20px;
+	border: 0px solid #444;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq .campo .input {
+	width: 340px;
+	height: 16px;
+	line-height: 16px;
+	border:1px solid #ccc;
+	padding-top: 3px;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq .campo .textarea {
+	width: 337px;
+	height: 90px;
+	border:1px solid #ccc;
+	padding-top: 1px;
+	padding-left: 3px;
+	float: left;
+}
+
+#bloco_centro #descricao #lesq .campo .obrigatorio {
+	width: 336px;
+	background: #fff url('../images/linha_campo_obrigatorio.gif') repeat-y;
+	padding-left: 4px;
+}
+
+#bloco_centro #descricao #ldir {
+	width: 500px;
+	min-height: 250px;
+	_height: 250px;
+	text-align: justify;
+	border: 0px solid #444;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#bloco_centro #descricao #ldir fieldset {
+	border: 1px solid #ccc;
+}
+
+#bloco_centro #descricao #ldir fieldset a {
+	color: #22c;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+
+	.topoMobile{
+		display: inherit;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+	#bloco_centro #solucoes{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao{
+		width: 91%;
+	}
+
+	.container .sul{
+		width: 92.8%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: inherit;
+	}
+
+	.ocultaBarrinha{
+		display: none;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	#bloco_centro #noticias{
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		height: 46px;
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+	.meio {
+		width: 84%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 10%;
+		float: left;
+	}
+
+
+	#bloco_centro #solucoes .solucao {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#bloco_centro #descricao #titulo2{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao #texto{
+		width: 100%;
+	}
+
+
+
+	#bloco_centro #descricao #lesq #titulo{
+		width: 100%;
+		text-align: left;
+	}
+
+	#bloco_centro #descricao #lesq{
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #ldir{
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #lesq .texto{
+		text-align: left;
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #lesq .campo{
+		width: 97%;
+	}
+
+	#bloco_centro #descricao #lesq .campo .obrigatorio{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao #lesq .campo .input{
+		width: 100%;
+	}
+
+	.menuTablet{
+		display: none;
+	}
+}
+
+
+/*TABLET*/
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+
+
+	.menuTablet{
+		padding: 16px;
+	}
+
+	.menuTablet > li{
+		display: inline;
+   		padding: 16px;
+   		text-decoration: none;
+    	border: 0;
+	}	
+
+	.menuTablet > li > a, li > a:hover, li > a:visited, li > a:active{
+		color: #ffffff;
+		font-size: 12px;
+	}
+
+
+	.icone_menu{
+		display: none;
+	}
+
+
+	.topoMobile{
+		display: inherit;
+	}
+
+	.container .norte #menu_topo #menu li {
+		float: none;
+	}
+
+	.toggleMenu{
+		display: block;
+	}
+
+	.container .norte #menu_topo #menu{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.container .norte #menu_topo{
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		display: none;
+		margin-top: 0px;
+	}
+
+	.container .norte{
+		height: auto;
+	}
+
+
+	#centraliza_tudo{
+		width: 100%;
+	}
+
+
+	.container{
+		width: 99%;
+	}
+
+	.container .norte{
+		width: 100%;
+		background: #BE0000;
+	}
+
+	.container .centro{
+		width: 100%;
+	}
+
+	#bloco_centro{
+		width: 100%;
+	}
+
+	#bloco_centro #solucoes{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao{
+		width: 94%;
+	}
+
+	.container .sul{
+		width: 96.7%;
+		background: #BE0000;
+		color: #ffffff;
+		height: auto;
+		text-align: left;
+		padding: 1em;
+		line-height: 2em;
+	}
+
+	.container .sul br{
+		display: none;
+	}
+
+	.ocultaBarrinha{
+		display: inline;
+	}
+
+
+	.container .oeste{
+		min-height: 0px;
+	}
+
+	#logo_seprorgs {
+		display: none;
+	}
+
+	#logo_pgqp {
+		display: none;
+	}
+
+
+	#logo_acpel {
+		display: none;
+	}
+
+
+	#bloco_centro #noticias{
+		display: none;
+	}
+
+
+	.topoMobile {
+		background: #BE0000;
+		height: 46px;
+	}
+
+	.loguinho {
+		width: 33px;
+		height: 36px;
+	}
+
+	.logoMobile {
+		color: #ffffff;
+		font-family: sans-serif;
+		width: 100%;
+		font-size: 2em;
+		margin-top: 0.251em;
+		margin-bottom: 0;
+		padding: 0.2em;
+	}
+
+
+
+	.meio {
+		width: 10%;
+		float: left;
+		padding-left: 1em;
+	}
+
+	.dir{
+		width: 88%;
+		float: left;
+	}
+
+
+	#bloco_centro #solucoes .solucao {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#bloco_centro #descricao #titulo2{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao #texto{
+		width: 100%;
+	}
+
+
+
+	#bloco_centro #descricao #lesq #titulo{
+		width: 100%;
+		text-align: left;
+	}
+
+	#bloco_centro #descricao #lesq{
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #ldir{
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #lesq .texto{
+		text-align: left;
+		width: 100%;
+	}
+
+
+	#bloco_centro #descricao #lesq .campo{
+		width: 97%;
+	}
+
+	#bloco_centro #descricao #lesq .campo .obrigatorio{
+		width: 100%;
+	}
+
+	#bloco_centro #descricao #lesq .campo .input{
+		width: 100%;
+	}
+
+
+}

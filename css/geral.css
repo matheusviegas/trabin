@@ -1,0 +1,150 @@
+#centraliza_tudo > div > div.norte > div.topoMobile > div.dir > a > img{
+	margin-top: 5px;
+}
+
+
+.selecionado{
+	background: #9A0707;
+}
+
+
+/* CSS Personalizado */
+body {
+    background-position: 0px 0px;
+}
+
+.container .centro img {
+	max-width: 100%;
+}
+
+.topoMobile{
+	display: none;
+}
+
+/* Define a div que irá centralizar todo o conteúdo */
+#centraliza_tudo {
+	width: 1007px;
+	margin:0 auto;			
+	padding: 0px;
+	border: 0px solid #444;
+	text-align: left; /* "remédio" para o hack do IE */	
+}
+
+
+/* Controla o container principal */
+.container {
+	width: 1005px;
+	margin: 0px;
+	padding: 0px;
+    border: 1px solid #e1e3e5;
+}
+
+.container .norte {
+	width: 1005px;
+	height: 300px;
+    background: #fff url('../images/fundo_topo.jpg') no-repeat;
+    border-top: 0px solid #3385AD;
+    border-bottom: 0px solid #3385AD;
+}
+
+.container .oeste {
+	width: 0px;
+	min-height: 417px;
+	_height: 417px;
+    _display: inline;
+	border: 0px solid #f1f3f5;
+}
+
+.container .centro {
+	width: 1005px;
+	min-height: 417px;
+    _height: 417px;
+	border: 0px solid #00f;
+    background-color: #fff;
+}
+
+.container .leste {
+	width: 0px;
+	min-height: 417px;
+    _height: 417px;
+	border: 1px solid #00f;
+    display: none;
+}
+
+.container .sul {
+	width: 1005px;
+	height: 30px;
+    line-height: 30px;
+    font-family: 'Arial';
+    font-size: 12px;
+    text-align: right;
+    background: #fff url('../images/fundo_rodape.jpg') no-repeat;
+    background-position: 357px 0px;
+    color: #fff;
+}
+
+
+/* Topo */
+.container .norte #menu_topo {
+	width: 988px;
+	height: 48px;
+	margin-top: 242px;
+	margin-left: 10px;
+	border: 0px solid #444;
+	float: left;
+}
+.container .norte #flag {		width: 950px;		height: 30px;	margin-top: 5px;	margin-left: 10px;	border : 0px solid white;		float: left;	position: absolute;}.container .norte #flag img {		padding: 2px;}
+.container .norte #menu_topo #menu {
+	width: 970px;
+	height: 37px;
+	margin-top: 8px;
+	margin-left: 10px;
+	padding: 0px; 
+	border: 0px solid #444;
+	float: left;
+}
+
+.container .norte #menu_topo #menu li {
+	height: 35px;
+	font-family: 'Arial';
+	font-size: 16px;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 0px;
+	line-height: 35px;
+	list-style: inline;
+	border: 0px solid #444;
+	background: #fff url('../images/fundo_menu_nao_selecionado.jpg') repeat-x;
+	float: left
+}
+
+.container .norte #menu_topo #menu li a {
+	text-transform: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+}
+.container .norte #logo_acpel {		width: 75px;	height: 76px;	top: 70px;	left: 922px;	border: 0px solid #444;	position: relative;			}.container .norte #logo_pgqp {	width: 63px;	height: 76px;	top: 146px;	left: 848px;	border: 0px solid #444;	position: relative;}
+.container .norte #logo_seprorgs {
+	width: 76px;
+	height: 76px;
+	top: 222px;
+	left: 698px;
+	border: 0px solid #444;
+	position: relative;
+}
+.container .norte #logo_seprorgs img {
+	width: 140px;
+	height: 76px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}.container .norte #logo_pgqp img {	width: 63px;	height: 76px;	top: 0px;	left: 0px;	position: absolute;}
+.container .norte #logo_acpel img {	width: 75px;	height: 76px;	top: 0px;	left: 0px;	position: absolute;}
+/* Endereço no Rodapé */
+.container .sul #endereco {
+	padding-right: 3px;
+	float: right;
+}

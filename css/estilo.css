@@ -1,0 +1,129 @@
+/* CSS Padrao */
+
+/* Elementos do HTML */
+body {
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	border: 0px solid #444;
+	margin: 0px;
+	padding: 0px;
+}
+
+input {
+	font-family: verdana;
+	font-size: 11px;
+	margin: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li {
+	border-bottom: 1px solid #f1f3f5;
+}
+
+ul li a {
+	text-decoration: none;
+	border: 0px solid #ccc;
+	margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    border: 0px solid #fff;
+    margin: 0px;
+    color: #444;
+}
+
+img {
+    border: 0px solid #fff;
+    margin: 0px;
+}
+
+pre {
+    font-family: verdana;
+	font-size: 11px;
+}
+
+/**
+ * Hack para IE6
+ * Todos as propriedades com sublinha (underline) antes
+ * eh um hack para o internet explorer 6
+ */
+h1 {
+    font-size: 16px;
+    _font-size: 17px;
+    _margin-top: 10px;
+    _margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 14px;
+    _font-size: 15px;
+    _margin-top: 10px;
+    _margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 12px;
+    _font-size: 13px;
+    _margin-top: 10px;
+    _margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 10px;
+    _font-size: 11px;
+    _margin-top: 10px;
+    _margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 8px;
+    _font-size: 9px;
+    _margin-top: 10px;
+    _margin-bottom: 10px;
+}
+
+
+/* Layout Container 1024px por 768px */
+.container {
+	border: 0px solid #ccc;
+	margin: 0px;
+	padding: 0px;
+    font-family: verdana;
+	font-size: 11px;
+}
+
+.container .norte {
+	border: 0px solid #f00;
+    clear: both;
+}
+
+.container .oeste {
+	border: 0px solid #00f;
+	float: left;
+}
+
+.container .centro {
+	border: 0px solid #00f;
+	float: left;
+}
+
+.container .leste {
+	border: 0px solid #00f;
+	float: left;
+}
+
+.container .sul {
+	border: 0px solid #ff0;
+	clear: both;
+}
